@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Payal Pagere</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
+
+
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen">
+<script src="js/jquery-1.7.1.min.js" ></script>
+<script src="js/superfish.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script>
+jQuery(window).load(function () {
+    jQuery('.flexslider').flexslider({
+        animation: "fade",
+        slideshow: true,
+        slideshowSpeed: 7000,
+        animationDuration: 600,
+        prevText: "",
+        nextText: "",
+        controlNav: false
+    })
+});
+</script>
+
+</head>
+<body>
+  <?php
+<header>
+  <div class="line-top"></div>
+  <div class="main">
+    <div class="row-top">
+     
+        <ul class="sf-menu">
+          <li class="active"><a href="index.html">Home</a></li>
+            <ul>
+              <li><a href="#">dolores et</a></li>
+              <li><a href="#">lorem ipsum dolo </a>
+              <li><a href="#">sanctus est</a></li>
+            </ul>
+          </li>
+          
+          <li><a href="">About Us</a> </li>
+          <li><a href="">Services</a> </li>
+          <li><a href="">Skills</a> </li>
+        </ul>
+      </nav>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div class="box-slider">
+    <div class="flexslider">
+      <ul class="slides">
+        <li> <img alt="" src="Payal2.jpeg" width="950" height="400"></li>
+        <li> <img alt="" src="Payal3.jpeg" width="950" height="400"></li>
+      </ul>
+    </div>
+  </div>
+  <div class="box-slogan">
+    <h3>Hello This is Payal Pagere</h3>
+    <p> <h3> Web Developer</h4>  </p>
+  </div>
+</header>
+</article>
+
+
+<section id="content">
+  <div class="border-horiz"></div>
+  <div class="container_12 row-1">
+    <article class="grid_4 thumbnail-1">
+ 
+      <h3><span>Web</span> Development </h3>
+      <figure class="box-img"><img src="Web Developer.png" alt=""height="200" width="200"></figure>
+
+      </article>
+    <article class="grid_4 thumbnail-1">
+      <h3><span>Software </span> Testing </h3>
+      <figure class="box-img"><img src="Software Testing.png" alt="" height="200" width="200" ></figure>
+     
+      </article>
+    <article class="grid_4 thumbnail-1">
+      <h3><span>Project </span> Management </h3>
+      <figure class="box-img"><img src="Project Management.png" alt=""height="200" width="200"></figure>
+      
+      </article>
+    <div class="clear"></div>
+  </div>
+  <div class="border-horiz"></div>
+  <div class="container_12">
+    <article class="grid_4">
+      <h3>About me </h3>
+      <ul class="list-popular">
+        <li> <a href="#"></a>
+         <p>I am a front end Web developer. I can provide clean code and pixel perfect design. I also make the Web site more and more attractive with web animation . I can make pixel perfect design . A responsive design makes your design accessible to all users . regardless of thier designs </p>
+        </li>
+        <a href="https://instagram.com/payallll_9672?utm_medium=copy_link" target="_blank" >Instagram </a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="https://www.linkedin.com/in/payal-pagere-9a8160210" target="_blank">Linkedin</a>
+        <li> <a href="#"></a>
+          <p></p>
+        </li>
+        <li> <a href="#"></a>
+          <p></p>
+        </li>
+        <li> <a href="#"></a>
+          <p></p>
+        </li>
+      </ul>
+    </article>
+    <article class="grid_8">
+      <h3></h3>
+      
+         
+      
+        </li>
+      </ul>
+    </article>
+    <div class="clear"></div>
+  </div>
+</section>
+
+
+  </div>
+</footer>
+?>
+</body>
+</html>
